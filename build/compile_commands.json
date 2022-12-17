@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/main.cpp.o -c /home/jooz/projects/GAME/src/main.cpp",
+  "file": "/home/jooz/projects/GAME/src/main.cpp"
+}
+]

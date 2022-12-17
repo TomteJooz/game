@@ -1,0 +1,5 @@
+/home/jooz/projects/GAME/build/CMakeFiles/game.dir
+/home/jooz/projects/GAME/build/CMakeFiles/package.dir
+/home/jooz/projects/GAME/build/CMakeFiles/package_source.dir
+/home/jooz/projects/GAME/build/CMakeFiles/edit_cache.dir
+/home/jooz/projects/GAME/build/CMakeFiles/rebuild_cache.dir
