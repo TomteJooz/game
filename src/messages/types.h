@@ -1,0 +1,4 @@
+enum class Type
+{
+    COMMAND
+};
