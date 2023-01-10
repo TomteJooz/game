@@ -149,6 +149,78 @@ game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 .PHONY : game/fast
 
+src/components/entities/entity.o: src/components/entities/entity.cc.o
+.PHONY : src/components/entities/entity.o
+
+# target to build an object file
+src/components/entities/entity.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/entities/entity.cc.o
+.PHONY : src/components/entities/entity.cc.o
+
+src/components/entities/entity.i: src/components/entities/entity.cc.i
+.PHONY : src/components/entities/entity.i
+
+# target to preprocess a source file
+src/components/entities/entity.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/entities/entity.cc.i
+.PHONY : src/components/entities/entity.cc.i
+
+src/components/entities/entity.s: src/components/entities/entity.cc.s
+.PHONY : src/components/entities/entity.s
+
+# target to generate assembly for a file
+src/components/entities/entity.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/entities/entity.cc.s
+.PHONY : src/components/entities/entity.cc.s
+
+src/components/group.o: src/components/group.cc.o
+.PHONY : src/components/group.o
+
+# target to build an object file
+src/components/group.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/group.cc.o
+.PHONY : src/components/group.cc.o
+
+src/components/group.i: src/components/group.cc.i
+.PHONY : src/components/group.i
+
+# target to preprocess a source file
+src/components/group.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/group.cc.i
+.PHONY : src/components/group.cc.i
+
+src/components/group.s: src/components/group.cc.s
+.PHONY : src/components/group.s
+
+# target to generate assembly for a file
+src/components/group.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/group.cc.s
+.PHONY : src/components/group.cc.s
+
+src/helpers/textureHandler.o: src/helpers/textureHandler.cc.o
+.PHONY : src/helpers/textureHandler.o
+
+# target to build an object file
+src/helpers/textureHandler.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/helpers/textureHandler.cc.o
+.PHONY : src/helpers/textureHandler.cc.o
+
+src/helpers/textureHandler.i: src/helpers/textureHandler.cc.i
+.PHONY : src/helpers/textureHandler.i
+
+# target to preprocess a source file
+src/helpers/textureHandler.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/helpers/textureHandler.cc.i
+.PHONY : src/helpers/textureHandler.cc.i
+
+src/helpers/textureHandler.s: src/helpers/textureHandler.cc.s
+.PHONY : src/helpers/textureHandler.s
+
+# target to generate assembly for a file
+src/helpers/textureHandler.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/helpers/textureHandler.cc.s
+.PHONY : src/helpers/textureHandler.cc.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -173,6 +245,102 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/map/tileMap.o: src/map/tileMap.cc.o
+.PHONY : src/map/tileMap.o
+
+# target to build an object file
+src/map/tileMap.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/map/tileMap.cc.o
+.PHONY : src/map/tileMap.cc.o
+
+src/map/tileMap.i: src/map/tileMap.cc.i
+.PHONY : src/map/tileMap.i
+
+# target to preprocess a source file
+src/map/tileMap.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/map/tileMap.cc.i
+.PHONY : src/map/tileMap.cc.i
+
+src/map/tileMap.s: src/map/tileMap.cc.s
+.PHONY : src/map/tileMap.s
+
+# target to generate assembly for a file
+src/map/tileMap.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/map/tileMap.cc.s
+.PHONY : src/map/tileMap.cc.s
+
+src/states/playState.o: src/states/playState.cc.o
+.PHONY : src/states/playState.o
+
+# target to build an object file
+src/states/playState.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/states/playState.cc.o
+.PHONY : src/states/playState.cc.o
+
+src/states/playState.i: src/states/playState.cc.i
+.PHONY : src/states/playState.i
+
+# target to preprocess a source file
+src/states/playState.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/states/playState.cc.i
+.PHONY : src/states/playState.cc.i
+
+src/states/playState.s: src/states/playState.cc.s
+.PHONY : src/states/playState.s
+
+# target to generate assembly for a file
+src/states/playState.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/states/playState.cc.s
+.PHONY : src/states/playState.cc.s
+
+src/states/stateMachine.o: src/states/stateMachine.cc.o
+.PHONY : src/states/stateMachine.o
+
+# target to build an object file
+src/states/stateMachine.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/states/stateMachine.cc.o
+.PHONY : src/states/stateMachine.cc.o
+
+src/states/stateMachine.i: src/states/stateMachine.cc.i
+.PHONY : src/states/stateMachine.i
+
+# target to preprocess a source file
+src/states/stateMachine.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/states/stateMachine.cc.i
+.PHONY : src/states/stateMachine.cc.i
+
+src/states/stateMachine.s: src/states/stateMachine.cc.s
+.PHONY : src/states/stateMachine.s
+
+# target to generate assembly for a file
+src/states/stateMachine.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/states/stateMachine.cc.s
+.PHONY : src/states/stateMachine.cc.s
+
+src/world.o: src/world.cc.o
+.PHONY : src/world.o
+
+# target to build an object file
+src/world.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/world.cc.o
+.PHONY : src/world.cc.o
+
+src/world.i: src/world.cc.i
+.PHONY : src/world.i
+
+# target to preprocess a source file
+src/world.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/world.cc.i
+.PHONY : src/world.cc.i
+
+src/world.s: src/world.cc.s
+.PHONY : src/world.s
+
+# target to generate assembly for a file
+src/world.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/world.cc.s
+.PHONY : src/world.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -184,9 +352,30 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... game"
+	@echo "... src/components/entities/entity.o"
+	@echo "... src/components/entities/entity.i"
+	@echo "... src/components/entities/entity.s"
+	@echo "... src/components/group.o"
+	@echo "... src/components/group.i"
+	@echo "... src/components/group.s"
+	@echo "... src/helpers/textureHandler.o"
+	@echo "... src/helpers/textureHandler.i"
+	@echo "... src/helpers/textureHandler.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/map/tileMap.o"
+	@echo "... src/map/tileMap.i"
+	@echo "... src/map/tileMap.s"
+	@echo "... src/states/playState.o"
+	@echo "... src/states/playState.i"
+	@echo "... src/states/playState.s"
+	@echo "... src/states/stateMachine.o"
+	@echo "... src/states/stateMachine.i"
+	@echo "... src/states/stateMachine.s"
+	@echo "... src/world.o"
+	@echo "... src/world.i"
+	@echo "... src/world.s"
 .PHONY : help
 
 

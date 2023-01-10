@@ -237,4 +237,24 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/jooz/projects/GAME/src/main.cpp \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp
+ /usr/include/SFML/Graphics/VertexBuffer.hpp \
+ /home/jooz/projects/GAME/src/helpers/constants.h \
+ /home/jooz/projects/GAME/src/states/playState.h \
+ /home/jooz/projects/GAME/src/states/state.h /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
+ /usr/include/c++/11/bits/shared_ptr.h \
+ /usr/include/c++/11/bits/shared_ptr_base.h \
+ /usr/include/c++/11/bits/allocated_ptr.h \
+ /usr/include/c++/11/ext/concurrence.h \
+ /usr/include/c++/11/bits/shared_ptr_atomic.h \
+ /usr/include/c++/11/bits/atomic_base.h \
+ /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/11/backward/auto_ptr.h \
+ /usr/include/c++/11/pstl/glue_memory_defs.h \
+ /home/jooz/projects/GAME/src/states/../world.h \
+ /home/jooz/projects/GAME/src/states/../components/components.h \
+ /home/jooz/projects/GAME/src/states/../components/group.h \
+ /home/jooz/projects/GAME/src/states/../components/components.h \
+ /home/jooz/projects/GAME/src/states/../helpers/textureHandler.h \
+ /home/jooz/projects/GAME/src/states/stateMachine.h

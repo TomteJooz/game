@@ -3,5 +3,40 @@
   "directory": "/home/jooz/projects/GAME/build",
   "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/main.cpp.o -c /home/jooz/projects/GAME/src/main.cpp",
   "file": "/home/jooz/projects/GAME/src/main.cpp"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/components/entities/entity.cc.o -c /home/jooz/projects/GAME/src/components/entities/entity.cc",
+  "file": "/home/jooz/projects/GAME/src/components/entities/entity.cc"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/components/group.cc.o -c /home/jooz/projects/GAME/src/components/group.cc",
+  "file": "/home/jooz/projects/GAME/src/components/group.cc"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/world.cc.o -c /home/jooz/projects/GAME/src/world.cc",
+  "file": "/home/jooz/projects/GAME/src/world.cc"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/states/playState.cc.o -c /home/jooz/projects/GAME/src/states/playState.cc",
+  "file": "/home/jooz/projects/GAME/src/states/playState.cc"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/states/stateMachine.cc.o -c /home/jooz/projects/GAME/src/states/stateMachine.cc",
+  "file": "/home/jooz/projects/GAME/src/states/stateMachine.cc"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/helpers/textureHandler.cc.o -c /home/jooz/projects/GAME/src/helpers/textureHandler.cc",
+  "file": "/home/jooz/projects/GAME/src/helpers/textureHandler.cc"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/map/tileMap.cc.o -c /home/jooz/projects/GAME/src/map/tileMap.cc",
+  "file": "/home/jooz/projects/GAME/src/map/tileMap.cc"
 }
 ]

@@ -1,11 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GAME.dir/main.cpp.o"
-  "CMakeFiles/GAME.dir/main.cpp.o.d"
-  "GAME"
-  "GAME.pdb"
+  "CMakeFiles/GAME"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang )
   include(CMakeFiles/GAME.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
