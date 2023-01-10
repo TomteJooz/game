@@ -5,18 +5,22 @@
 #include <vector>
 #include <memory>
 
+#include "../messages/messageSystem.h"
 #include "group.h"
 
 class Group;
 
-class IComponent : public sf::Drawable, public std::enable_shared_from_this<IComponent>
+class IComponent : public sf::Drawable, public IMessageHandler, public std::enable_shared_from_this<IComponent>
 {
 public:
     IComponent() : children{} {}
     virtual void draw(sf::RenderTarget &target, sf::RenderStates states) const = 0;
     virtual void tick(sf::Time delta) = 0;
+    virtual void handle(Message message) override{};
+    virtual void sendMessageTo(Message message, Tag Recipient) override{};
 
 protected:
+    Tag tag;
     Group *children;
 };
 

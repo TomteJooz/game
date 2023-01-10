@@ -1,34 +1,28 @@
 #ifndef MESSAGE_SYSTEM_H
 #define MESSAGE_SYSTEM_H
 
-#include "../helpers/tags.h"
-#include "types.h"
+#include <string>
 
-template <typename T>
-struct Context
-{
-    Type Type;
-    T Data;
-};
+#include "tags.h"
+#include "messageTypes.h"
 
-template <typename T>
 struct Message
 {
     Tag Sender;
     Tag Recipient;
-    Context<T> Context;
+    MessageType Type;
+    std::string Content;
 };
 
-class ISubject
+class IMessageHandler
 {
-    template <typename T>
-    void sendMessageTo(Message<T> message, Tag Recipient);
-};
+public:
+    Tag getTag() { return tag; };
+    virtual void handle(Message message) = 0;
+    virtual void sendMessageTo(Message message, Tag Recipient) = 0;
 
-class IObserver
-{
-    template <typename T>
-    void handle(Message<T> message);
+protected:
+    Tag tag;
 };
 
 #endif

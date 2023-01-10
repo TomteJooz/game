@@ -255,6 +255,9 @@ CMakeFiles/game.dir/src/states/playState.cc.o: \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /home/jooz/projects/GAME/src/states/../world.h \
  /home/jooz/projects/GAME/src/states/../components/components.h \
+ /home/jooz/projects/GAME/src/states/../components/../messages/messageSystem.h \
+ /home/jooz/projects/GAME/src/states/../components/../messages/tags.h \
+ /home/jooz/projects/GAME/src/states/../components/../messages/messageTypes.h \
  /home/jooz/projects/GAME/src/states/../components/group.h \
  /home/jooz/projects/GAME/src/states/../components/components.h \
  /home/jooz/projects/GAME/src/states/../helpers/textureHandler.h

@@ -251,6 +251,9 @@ CMakeFiles/game.dir/src/world.cc.o: /home/jooz/projects/GAME/src/world.cc \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /home/jooz/projects/GAME/src/components/components.h \
+ /home/jooz/projects/GAME/src/components/../messages/messageSystem.h \
+ /home/jooz/projects/GAME/src/components/../messages/tags.h \
+ /home/jooz/projects/GAME/src/components/../messages/messageTypes.h \
  /home/jooz/projects/GAME/src/components/group.h \
  /home/jooz/projects/GAME/src/components/components.h \
  /home/jooz/projects/GAME/src/helpers/textureHandler.h \

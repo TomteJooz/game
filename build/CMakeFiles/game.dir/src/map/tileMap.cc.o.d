@@ -253,5 +253,8 @@ CMakeFiles/game.dir/src/map/tileMap.cc.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
+ /home/jooz/projects/GAME/src/map/../components/entities/../../messages/messageSystem.h \
+ /home/jooz/projects/GAME/src/map/../components/entities/../../messages/tags.h \
+ /home/jooz/projects/GAME/src/map/../components/entities/../../messages/messageTypes.h \
  /home/jooz/projects/GAME/src/map/../components/entities/../group.h \
  /home/jooz/projects/GAME/src/map/../components/entities/../components.h
