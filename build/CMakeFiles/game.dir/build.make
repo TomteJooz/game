@@ -83,38 +83,80 @@ CMakeFiles/game.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jooz/projects/GAME/src/main.cpp -o CMakeFiles/game.dir/src/main.cpp.s
 
-CMakeFiles/game.dir/src/components/entities/entity.cc.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/components/entities/entity.cc.o: ../src/components/entities/entity.cc
-CMakeFiles/game.dir/src/components/entities/entity.cc.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/components/entities/entity.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/components/entities/entity.cc.o -MF CMakeFiles/game.dir/src/components/entities/entity.cc.o.d -o CMakeFiles/game.dir/src/components/entities/entity.cc.o -c /home/jooz/projects/GAME/src/components/entities/entity.cc
+CMakeFiles/game.dir/src/components/component.cc.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/components/component.cc.o: ../src/components/component.cc
+CMakeFiles/game.dir/src/components/component.cc.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/components/component.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/components/component.cc.o -MF CMakeFiles/game.dir/src/components/component.cc.o.d -o CMakeFiles/game.dir/src/components/component.cc.o -c /home/jooz/projects/GAME/src/components/component.cc
 
-CMakeFiles/game.dir/src/components/entities/entity.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/components/entities/entity.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jooz/projects/GAME/src/components/entities/entity.cc > CMakeFiles/game.dir/src/components/entities/entity.cc.i
+CMakeFiles/game.dir/src/components/component.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/components/component.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jooz/projects/GAME/src/components/component.cc > CMakeFiles/game.dir/src/components/component.cc.i
 
-CMakeFiles/game.dir/src/components/entities/entity.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/components/entities/entity.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jooz/projects/GAME/src/components/entities/entity.cc -o CMakeFiles/game.dir/src/components/entities/entity.cc.s
+CMakeFiles/game.dir/src/components/component.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/components/component.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jooz/projects/GAME/src/components/component.cc -o CMakeFiles/game.dir/src/components/component.cc.s
 
-CMakeFiles/game.dir/src/components/group.cc.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/components/group.cc.o: ../src/components/group.cc
-CMakeFiles/game.dir/src/components/group.cc.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/components/group.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/components/group.cc.o -MF CMakeFiles/game.dir/src/components/group.cc.o.d -o CMakeFiles/game.dir/src/components/group.cc.o -c /home/jooz/projects/GAME/src/components/group.cc
+CMakeFiles/game.dir/src/components/texture.cc.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/components/texture.cc.o: ../src/components/texture.cc
+CMakeFiles/game.dir/src/components/texture.cc.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/components/texture.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/components/texture.cc.o -MF CMakeFiles/game.dir/src/components/texture.cc.o.d -o CMakeFiles/game.dir/src/components/texture.cc.o -c /home/jooz/projects/GAME/src/components/texture.cc
 
-CMakeFiles/game.dir/src/components/group.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/components/group.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jooz/projects/GAME/src/components/group.cc > CMakeFiles/game.dir/src/components/group.cc.i
+CMakeFiles/game.dir/src/components/texture.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/components/texture.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jooz/projects/GAME/src/components/texture.cc > CMakeFiles/game.dir/src/components/texture.cc.i
 
-CMakeFiles/game.dir/src/components/group.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/components/group.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jooz/projects/GAME/src/components/group.cc -o CMakeFiles/game.dir/src/components/group.cc.s
+CMakeFiles/game.dir/src/components/texture.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/components/texture.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jooz/projects/GAME/src/components/texture.cc -o CMakeFiles/game.dir/src/components/texture.cc.s
+
+CMakeFiles/game.dir/src/components/controller/controller.cc.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/components/controller/controller.cc.o: ../src/components/controller/controller.cc
+CMakeFiles/game.dir/src/components/controller/controller.cc.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/components/controller/controller.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/components/controller/controller.cc.o -MF CMakeFiles/game.dir/src/components/controller/controller.cc.o.d -o CMakeFiles/game.dir/src/components/controller/controller.cc.o -c /home/jooz/projects/GAME/src/components/controller/controller.cc
+
+CMakeFiles/game.dir/src/components/controller/controller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/components/controller/controller.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jooz/projects/GAME/src/components/controller/controller.cc > CMakeFiles/game.dir/src/components/controller/controller.cc.i
+
+CMakeFiles/game.dir/src/components/controller/controller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/components/controller/controller.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jooz/projects/GAME/src/components/controller/controller.cc -o CMakeFiles/game.dir/src/components/controller/controller.cc.s
+
+CMakeFiles/game.dir/src/components/controller/playerController.cc.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/components/controller/playerController.cc.o: ../src/components/controller/playerController.cc
+CMakeFiles/game.dir/src/components/controller/playerController.cc.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/components/controller/playerController.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/components/controller/playerController.cc.o -MF CMakeFiles/game.dir/src/components/controller/playerController.cc.o.d -o CMakeFiles/game.dir/src/components/controller/playerController.cc.o -c /home/jooz/projects/GAME/src/components/controller/playerController.cc
+
+CMakeFiles/game.dir/src/components/controller/playerController.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/components/controller/playerController.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jooz/projects/GAME/src/components/controller/playerController.cc > CMakeFiles/game.dir/src/components/controller/playerController.cc.i
+
+CMakeFiles/game.dir/src/components/controller/playerController.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/components/controller/playerController.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jooz/projects/GAME/src/components/controller/playerController.cc -o CMakeFiles/game.dir/src/components/controller/playerController.cc.s
+
+CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o: ../src/components/entities/testPlayer.cc
+CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o -MF CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o.d -o CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o -c /home/jooz/projects/GAME/src/components/entities/testPlayer.cc
+
+CMakeFiles/game.dir/src/components/entities/testPlayer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/components/entities/testPlayer.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jooz/projects/GAME/src/components/entities/testPlayer.cc > CMakeFiles/game.dir/src/components/entities/testPlayer.cc.i
+
+CMakeFiles/game.dir/src/components/entities/testPlayer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/components/entities/testPlayer.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jooz/projects/GAME/src/components/entities/testPlayer.cc -o CMakeFiles/game.dir/src/components/entities/testPlayer.cc.s
 
 CMakeFiles/game.dir/src/world.cc.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/world.cc.o: ../src/world.cc
 CMakeFiles/game.dir/src/world.cc.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/world.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.dir/src/world.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/world.cc.o -MF CMakeFiles/game.dir/src/world.cc.o.d -o CMakeFiles/game.dir/src/world.cc.o -c /home/jooz/projects/GAME/src/world.cc
 
 CMakeFiles/game.dir/src/world.cc.i: cmake_force
@@ -128,7 +170,7 @@ CMakeFiles/game.dir/src/world.cc.s: cmake_force
 CMakeFiles/game.dir/src/states/playState.cc.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/states/playState.cc.o: ../src/states/playState.cc
 CMakeFiles/game.dir/src/states/playState.cc.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/states/playState.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.dir/src/states/playState.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/states/playState.cc.o -MF CMakeFiles/game.dir/src/states/playState.cc.o.d -o CMakeFiles/game.dir/src/states/playState.cc.o -c /home/jooz/projects/GAME/src/states/playState.cc
 
 CMakeFiles/game.dir/src/states/playState.cc.i: cmake_force
@@ -142,7 +184,7 @@ CMakeFiles/game.dir/src/states/playState.cc.s: cmake_force
 CMakeFiles/game.dir/src/states/stateMachine.cc.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/states/stateMachine.cc.o: ../src/states/stateMachine.cc
 CMakeFiles/game.dir/src/states/stateMachine.cc.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/states/stateMachine.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/game.dir/src/states/stateMachine.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/states/stateMachine.cc.o -MF CMakeFiles/game.dir/src/states/stateMachine.cc.o.d -o CMakeFiles/game.dir/src/states/stateMachine.cc.o -c /home/jooz/projects/GAME/src/states/stateMachine.cc
 
 CMakeFiles/game.dir/src/states/stateMachine.cc.i: cmake_force
@@ -156,7 +198,7 @@ CMakeFiles/game.dir/src/states/stateMachine.cc.s: cmake_force
 CMakeFiles/game.dir/src/helpers/textureHandler.cc.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/helpers/textureHandler.cc.o: ../src/helpers/textureHandler.cc
 CMakeFiles/game.dir/src/helpers/textureHandler.cc.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.dir/src/helpers/textureHandler.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/game.dir/src/helpers/textureHandler.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/helpers/textureHandler.cc.o -MF CMakeFiles/game.dir/src/helpers/textureHandler.cc.o.d -o CMakeFiles/game.dir/src/helpers/textureHandler.cc.o -c /home/jooz/projects/GAME/src/helpers/textureHandler.cc
 
 CMakeFiles/game.dir/src/helpers/textureHandler.cc.i: cmake_force
@@ -170,7 +212,7 @@ CMakeFiles/game.dir/src/helpers/textureHandler.cc.s: cmake_force
 CMakeFiles/game.dir/src/map/tileMap.cc.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/map/tileMap.cc.o: ../src/map/tileMap.cc
 CMakeFiles/game.dir/src/map/tileMap.cc.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.dir/src/map/tileMap.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/game.dir/src/map/tileMap.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/map/tileMap.cc.o -MF CMakeFiles/game.dir/src/map/tileMap.cc.o.d -o CMakeFiles/game.dir/src/map/tileMap.cc.o -c /home/jooz/projects/GAME/src/map/tileMap.cc
 
 CMakeFiles/game.dir/src/map/tileMap.cc.i: cmake_force
@@ -184,8 +226,11 @@ CMakeFiles/game.dir/src/map/tileMap.cc.s: cmake_force
 # Object files for target game
 game_OBJECTS = \
 "CMakeFiles/game.dir/src/main.cpp.o" \
-"CMakeFiles/game.dir/src/components/entities/entity.cc.o" \
-"CMakeFiles/game.dir/src/components/group.cc.o" \
+"CMakeFiles/game.dir/src/components/component.cc.o" \
+"CMakeFiles/game.dir/src/components/texture.cc.o" \
+"CMakeFiles/game.dir/src/components/controller/controller.cc.o" \
+"CMakeFiles/game.dir/src/components/controller/playerController.cc.o" \
+"CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o" \
 "CMakeFiles/game.dir/src/world.cc.o" \
 "CMakeFiles/game.dir/src/states/playState.cc.o" \
 "CMakeFiles/game.dir/src/states/stateMachine.cc.o" \
@@ -196,8 +241,11 @@ game_OBJECTS = \
 game_EXTERNAL_OBJECTS =
 
 game: CMakeFiles/game.dir/src/main.cpp.o
-game: CMakeFiles/game.dir/src/components/entities/entity.cc.o
-game: CMakeFiles/game.dir/src/components/group.cc.o
+game: CMakeFiles/game.dir/src/components/component.cc.o
+game: CMakeFiles/game.dir/src/components/texture.cc.o
+game: CMakeFiles/game.dir/src/components/controller/controller.cc.o
+game: CMakeFiles/game.dir/src/components/controller/playerController.cc.o
+game: CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o
 game: CMakeFiles/game.dir/src/world.cc.o
 game: CMakeFiles/game.dir/src/states/playState.cc.o
 game: CMakeFiles/game.dir/src/states/stateMachine.cc.o
@@ -209,7 +257,7 @@ game: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 game: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 game: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

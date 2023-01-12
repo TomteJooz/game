@@ -1,6 +1,6 @@
 #include "tileMap.h"
 
-TileMap::TileMap(const sf::Texture &texture) : Entity{texture}
+TileMap::TileMap(const sf::Texture &texture) : Texture{texture}
 {
 }
 

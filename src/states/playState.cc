@@ -6,10 +6,11 @@ PlayState::PlayState() : world{}
 
 std::shared_ptr<IState> PlayState::tick(sf::Time delta)
 {
+    world.tick(delta);
     return nullptr;
 }
 
-void PlayState::renderTo(sf::RenderWindow& window)
+void PlayState::renderTo(sf::RenderWindow &window)
 {
-    world.renderTo(window);
+    window.draw(world);
 }

@@ -1,7 +1,12 @@
+#include <iostream>
+
 #include "stateMachine.h"
 
 void StateMachine::run(sf::RenderWindow &window, std::shared_ptr<IState> state)
 {
+    sf::Clock fpsClock{};
+    unsigned int frameCount = 0;
+
     sf::Clock eventClock{};
     sf::Clock tickClock{};
 
@@ -29,9 +34,9 @@ void StateMachine::run(sf::RenderWindow &window, std::shared_ptr<IState> state)
                 break;
             }
         }
-        
-        window.clear(sf::Color{150, 150, 255});
 
+        window.clear(sf::Color{150, 150, 255});
+        
         tickTime = tickClock.restart();
 
         if (std::shared_ptr<IState> newState = state->tick(tickTime))
@@ -50,5 +55,15 @@ void StateMachine::run(sf::RenderWindow &window, std::shared_ptr<IState> state)
         state->renderTo(window);
 
         window.display();
+
+        frameCount++; // increment the frame count
+
+        if (fpsClock.getElapsedTime().asSeconds() > 1.0)
+        {
+            float fps = frameCount / fpsClock.getElapsedTime().asSeconds();
+            std::cout << "FPS: " << fps << std::endl;
+            frameCount = 0;
+            fpsClock.restart();
+        }
     }
 }

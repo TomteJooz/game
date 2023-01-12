@@ -2,9 +2,9 @@
 #define TILE_MAP_H
 #define TILE_MAP_H
 
-#include "../components/entities/entity.h"
+#include "../components/texture.h"
 
-class TileMap : public Entity
+class TileMap : public Texture
 {
 public:
     TileMap(const sf::Texture &texture);

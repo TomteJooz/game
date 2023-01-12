@@ -238,7 +238,9 @@ CMakeFiles/game.dir/src/world.cc.o: /home/jooz/projects/GAME/src/world.cc \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/11/memory \
+ /usr/include/SFML/Graphics/VertexBuffer.hpp \
+ /home/jooz/projects/GAME/src/components/components.h \
+ /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
  /usr/include/c++/11/bits/shared_ptr.h \
@@ -250,14 +252,14 @@ CMakeFiles/game.dir/src/world.cc.o: /home/jooz/projects/GAME/src/world.cc \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/jooz/projects/GAME/src/components/components.h \
  /home/jooz/projects/GAME/src/components/../messages/messageSystem.h \
  /home/jooz/projects/GAME/src/components/../messages/tags.h \
  /home/jooz/projects/GAME/src/components/../messages/messageTypes.h \
- /home/jooz/projects/GAME/src/components/group.h \
- /home/jooz/projects/GAME/src/components/components.h \
  /home/jooz/projects/GAME/src/helpers/textureHandler.h \
  /home/jooz/projects/GAME/src/helpers/constants.h \
  /home/jooz/projects/GAME/src/map/tileMap.h \
- /home/jooz/projects/GAME/src/map/../components/entities/entity.h \
- /home/jooz/projects/GAME/src/map/../components/entities/../components.h
+ /home/jooz/projects/GAME/src/map/../components/texture.h \
+ /home/jooz/projects/GAME/src/map/../components/components.h \
+ /home/jooz/projects/GAME/src/components/entities/testPlayer.h \
+ /home/jooz/projects/GAME/src/components/entities/../components.h \
+ /home/jooz/projects/GAME/src/components/entities/../texture.h

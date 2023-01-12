@@ -1,4 +1,4 @@
 enum class MessageType
 {
-    COMMAND
+    MOVE,
 };

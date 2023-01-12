@@ -6,13 +6,28 @@
 },
 {
   "directory": "/home/jooz/projects/GAME/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/components/entities/entity.cc.o -c /home/jooz/projects/GAME/src/components/entities/entity.cc",
-  "file": "/home/jooz/projects/GAME/src/components/entities/entity.cc"
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/components/component.cc.o -c /home/jooz/projects/GAME/src/components/component.cc",
+  "file": "/home/jooz/projects/GAME/src/components/component.cc"
 },
 {
   "directory": "/home/jooz/projects/GAME/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/components/group.cc.o -c /home/jooz/projects/GAME/src/components/group.cc",
-  "file": "/home/jooz/projects/GAME/src/components/group.cc"
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/components/texture.cc.o -c /home/jooz/projects/GAME/src/components/texture.cc",
+  "file": "/home/jooz/projects/GAME/src/components/texture.cc"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/components/controller/controller.cc.o -c /home/jooz/projects/GAME/src/components/controller/controller.cc",
+  "file": "/home/jooz/projects/GAME/src/components/controller/controller.cc"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/components/controller/playerController.cc.o -c /home/jooz/projects/GAME/src/components/controller/playerController.cc",
+  "file": "/home/jooz/projects/GAME/src/components/controller/playerController.cc"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o -c /home/jooz/projects/GAME/src/components/entities/testPlayer.cc",
+  "file": "/home/jooz/projects/GAME/src/components/entities/testPlayer.cc"
 },
 {
   "directory": "/home/jooz/projects/GAME/build",

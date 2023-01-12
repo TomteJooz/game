@@ -8,8 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jooz/projects/GAME/src/components/entities/entity.cc" "CMakeFiles/game.dir/src/components/entities/entity.cc.o" "gcc" "CMakeFiles/game.dir/src/components/entities/entity.cc.o.d"
-  "/home/jooz/projects/GAME/src/components/group.cc" "CMakeFiles/game.dir/src/components/group.cc.o" "gcc" "CMakeFiles/game.dir/src/components/group.cc.o.d"
+  "/home/jooz/projects/GAME/src/components/component.cc" "CMakeFiles/game.dir/src/components/component.cc.o" "gcc" "CMakeFiles/game.dir/src/components/component.cc.o.d"
+  "/home/jooz/projects/GAME/src/components/controller/controller.cc" "CMakeFiles/game.dir/src/components/controller/controller.cc.o" "gcc" "CMakeFiles/game.dir/src/components/controller/controller.cc.o.d"
+  "/home/jooz/projects/GAME/src/components/controller/playerController.cc" "CMakeFiles/game.dir/src/components/controller/playerController.cc.o" "gcc" "CMakeFiles/game.dir/src/components/controller/playerController.cc.o.d"
+  "/home/jooz/projects/GAME/src/components/entities/testPlayer.cc" "CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o" "gcc" "CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o.d"
+  "/home/jooz/projects/GAME/src/components/texture.cc" "CMakeFiles/game.dir/src/components/texture.cc.o" "gcc" "CMakeFiles/game.dir/src/components/texture.cc.o.d"
   "/home/jooz/projects/GAME/src/helpers/textureHandler.cc" "CMakeFiles/game.dir/src/helpers/textureHandler.cc.o" "gcc" "CMakeFiles/game.dir/src/helpers/textureHandler.cc.o.d"
   "/home/jooz/projects/GAME/src/main.cpp" "CMakeFiles/game.dir/src/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/main.cpp.o.d"
   "/home/jooz/projects/GAME/src/map/tileMap.cc" "CMakeFiles/game.dir/src/map/tileMap.cc.o" "gcc" "CMakeFiles/game.dir/src/map/tileMap.cc.o.d"

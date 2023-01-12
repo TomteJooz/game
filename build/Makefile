@@ -149,53 +149,125 @@ game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 .PHONY : game/fast
 
-src/components/entities/entity.o: src/components/entities/entity.cc.o
-.PHONY : src/components/entities/entity.o
+src/components/component.o: src/components/component.cc.o
+.PHONY : src/components/component.o
 
 # target to build an object file
-src/components/entities/entity.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/entities/entity.cc.o
-.PHONY : src/components/entities/entity.cc.o
+src/components/component.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/component.cc.o
+.PHONY : src/components/component.cc.o
 
-src/components/entities/entity.i: src/components/entities/entity.cc.i
-.PHONY : src/components/entities/entity.i
+src/components/component.i: src/components/component.cc.i
+.PHONY : src/components/component.i
 
 # target to preprocess a source file
-src/components/entities/entity.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/entities/entity.cc.i
-.PHONY : src/components/entities/entity.cc.i
+src/components/component.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/component.cc.i
+.PHONY : src/components/component.cc.i
 
-src/components/entities/entity.s: src/components/entities/entity.cc.s
-.PHONY : src/components/entities/entity.s
+src/components/component.s: src/components/component.cc.s
+.PHONY : src/components/component.s
 
 # target to generate assembly for a file
-src/components/entities/entity.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/entities/entity.cc.s
-.PHONY : src/components/entities/entity.cc.s
+src/components/component.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/component.cc.s
+.PHONY : src/components/component.cc.s
 
-src/components/group.o: src/components/group.cc.o
-.PHONY : src/components/group.o
+src/components/controller/controller.o: src/components/controller/controller.cc.o
+.PHONY : src/components/controller/controller.o
 
 # target to build an object file
-src/components/group.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/group.cc.o
-.PHONY : src/components/group.cc.o
+src/components/controller/controller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/controller/controller.cc.o
+.PHONY : src/components/controller/controller.cc.o
 
-src/components/group.i: src/components/group.cc.i
-.PHONY : src/components/group.i
+src/components/controller/controller.i: src/components/controller/controller.cc.i
+.PHONY : src/components/controller/controller.i
 
 # target to preprocess a source file
-src/components/group.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/group.cc.i
-.PHONY : src/components/group.cc.i
+src/components/controller/controller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/controller/controller.cc.i
+.PHONY : src/components/controller/controller.cc.i
 
-src/components/group.s: src/components/group.cc.s
-.PHONY : src/components/group.s
+src/components/controller/controller.s: src/components/controller/controller.cc.s
+.PHONY : src/components/controller/controller.s
 
 # target to generate assembly for a file
-src/components/group.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/group.cc.s
-.PHONY : src/components/group.cc.s
+src/components/controller/controller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/controller/controller.cc.s
+.PHONY : src/components/controller/controller.cc.s
+
+src/components/controller/playerController.o: src/components/controller/playerController.cc.o
+.PHONY : src/components/controller/playerController.o
+
+# target to build an object file
+src/components/controller/playerController.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/controller/playerController.cc.o
+.PHONY : src/components/controller/playerController.cc.o
+
+src/components/controller/playerController.i: src/components/controller/playerController.cc.i
+.PHONY : src/components/controller/playerController.i
+
+# target to preprocess a source file
+src/components/controller/playerController.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/controller/playerController.cc.i
+.PHONY : src/components/controller/playerController.cc.i
+
+src/components/controller/playerController.s: src/components/controller/playerController.cc.s
+.PHONY : src/components/controller/playerController.s
+
+# target to generate assembly for a file
+src/components/controller/playerController.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/controller/playerController.cc.s
+.PHONY : src/components/controller/playerController.cc.s
+
+src/components/entities/testPlayer.o: src/components/entities/testPlayer.cc.o
+.PHONY : src/components/entities/testPlayer.o
+
+# target to build an object file
+src/components/entities/testPlayer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/entities/testPlayer.cc.o
+.PHONY : src/components/entities/testPlayer.cc.o
+
+src/components/entities/testPlayer.i: src/components/entities/testPlayer.cc.i
+.PHONY : src/components/entities/testPlayer.i
+
+# target to preprocess a source file
+src/components/entities/testPlayer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/entities/testPlayer.cc.i
+.PHONY : src/components/entities/testPlayer.cc.i
+
+src/components/entities/testPlayer.s: src/components/entities/testPlayer.cc.s
+.PHONY : src/components/entities/testPlayer.s
+
+# target to generate assembly for a file
+src/components/entities/testPlayer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/entities/testPlayer.cc.s
+.PHONY : src/components/entities/testPlayer.cc.s
+
+src/components/texture.o: src/components/texture.cc.o
+.PHONY : src/components/texture.o
+
+# target to build an object file
+src/components/texture.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/texture.cc.o
+.PHONY : src/components/texture.cc.o
+
+src/components/texture.i: src/components/texture.cc.i
+.PHONY : src/components/texture.i
+
+# target to preprocess a source file
+src/components/texture.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/texture.cc.i
+.PHONY : src/components/texture.cc.i
+
+src/components/texture.s: src/components/texture.cc.s
+.PHONY : src/components/texture.s
+
+# target to generate assembly for a file
+src/components/texture.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/texture.cc.s
+.PHONY : src/components/texture.cc.s
 
 src/helpers/textureHandler.o: src/helpers/textureHandler.cc.o
 .PHONY : src/helpers/textureHandler.o
@@ -352,12 +424,21 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... game"
-	@echo "... src/components/entities/entity.o"
-	@echo "... src/components/entities/entity.i"
-	@echo "... src/components/entities/entity.s"
-	@echo "... src/components/group.o"
-	@echo "... src/components/group.i"
-	@echo "... src/components/group.s"
+	@echo "... src/components/component.o"
+	@echo "... src/components/component.i"
+	@echo "... src/components/component.s"
+	@echo "... src/components/controller/controller.o"
+	@echo "... src/components/controller/controller.i"
+	@echo "... src/components/controller/controller.s"
+	@echo "... src/components/controller/playerController.o"
+	@echo "... src/components/controller/playerController.i"
+	@echo "... src/components/controller/playerController.s"
+	@echo "... src/components/entities/testPlayer.o"
+	@echo "... src/components/entities/testPlayer.i"
+	@echo "... src/components/entities/testPlayer.s"
+	@echo "... src/components/texture.o"
+	@echo "... src/components/texture.i"
+	@echo "... src/components/texture.s"
 	@echo "... src/helpers/textureHandler.o"
 	@echo "... src/helpers/textureHandler.i"
 	@echo "... src/helpers/textureHandler.s"

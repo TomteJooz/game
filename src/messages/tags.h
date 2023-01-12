@@ -1,8 +1,8 @@
 enum class Tag 
 {
-    PLAYER,
-    ENEMY,
     PARENT,
+    CHILDREN,
     CHILD,
+    SIBLINGS,
     ALL
 };

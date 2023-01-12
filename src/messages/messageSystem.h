@@ -11,15 +11,25 @@ struct Message
     Tag Sender;
     Tag Recipient;
     MessageType Type;
-    std::string Content;
+    std::shared_ptr<Message> Answer;
+};
+
+struct MoveMessage : public Message
+{
+    sf::Vector2f Offset;
 };
 
 class IMessageHandler
 {
 public:
+    virtual ~IMessageHandler() = default;
+
+    virtual void handleMessage(Message &message) = 0;
+    virtual void sendMessage(Message &message) = 0;
+    virtual bool isMessageForMe(Message &message) = 0;
+    virtual void redirectMessage(Message &message) = 0;
+
     Tag getTag() { return tag; };
-    virtual void handle(Message message) = 0;
-    virtual void sendMessageTo(Message message, Tag Recipient) = 0;
 
 protected:
     Tag tag;
