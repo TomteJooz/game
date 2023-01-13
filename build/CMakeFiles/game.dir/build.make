@@ -223,6 +223,34 @@ CMakeFiles/game.dir/src/map/tileMap.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/map/tileMap.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jooz/projects/GAME/src/map/tileMap.cc -o CMakeFiles/game.dir/src/map/tileMap.cc.s
 
+CMakeFiles/game.dir/src/components/hitbox.cc.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/components/hitbox.cc.o: ../src/components/hitbox.cc
+CMakeFiles/game.dir/src/components/hitbox.cc.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/game.dir/src/components/hitbox.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/components/hitbox.cc.o -MF CMakeFiles/game.dir/src/components/hitbox.cc.o.d -o CMakeFiles/game.dir/src/components/hitbox.cc.o -c /home/jooz/projects/GAME/src/components/hitbox.cc
+
+CMakeFiles/game.dir/src/components/hitbox.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/components/hitbox.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jooz/projects/GAME/src/components/hitbox.cc > CMakeFiles/game.dir/src/components/hitbox.cc.i
+
+CMakeFiles/game.dir/src/components/hitbox.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/components/hitbox.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jooz/projects/GAME/src/components/hitbox.cc -o CMakeFiles/game.dir/src/components/hitbox.cc.s
+
+CMakeFiles/game.dir/src/structures/quadtree.cc.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/structures/quadtree.cc.o: ../src/structures/quadtree.cc
+CMakeFiles/game.dir/src/structures/quadtree.cc.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/game.dir/src/structures/quadtree.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/structures/quadtree.cc.o -MF CMakeFiles/game.dir/src/structures/quadtree.cc.o.d -o CMakeFiles/game.dir/src/structures/quadtree.cc.o -c /home/jooz/projects/GAME/src/structures/quadtree.cc
+
+CMakeFiles/game.dir/src/structures/quadtree.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/structures/quadtree.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jooz/projects/GAME/src/structures/quadtree.cc > CMakeFiles/game.dir/src/structures/quadtree.cc.i
+
+CMakeFiles/game.dir/src/structures/quadtree.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/structures/quadtree.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jooz/projects/GAME/src/structures/quadtree.cc -o CMakeFiles/game.dir/src/structures/quadtree.cc.s
+
 # Object files for target game
 game_OBJECTS = \
 "CMakeFiles/game.dir/src/main.cpp.o" \
@@ -235,7 +263,9 @@ game_OBJECTS = \
 "CMakeFiles/game.dir/src/states/playState.cc.o" \
 "CMakeFiles/game.dir/src/states/stateMachine.cc.o" \
 "CMakeFiles/game.dir/src/helpers/textureHandler.cc.o" \
-"CMakeFiles/game.dir/src/map/tileMap.cc.o"
+"CMakeFiles/game.dir/src/map/tileMap.cc.o" \
+"CMakeFiles/game.dir/src/components/hitbox.cc.o" \
+"CMakeFiles/game.dir/src/structures/quadtree.cc.o"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
@@ -251,13 +281,15 @@ game: CMakeFiles/game.dir/src/states/playState.cc.o
 game: CMakeFiles/game.dir/src/states/stateMachine.cc.o
 game: CMakeFiles/game.dir/src/helpers/textureHandler.cc.o
 game: CMakeFiles/game.dir/src/map/tileMap.cc.o
+game: CMakeFiles/game.dir/src/components/hitbox.cc.o
+game: CMakeFiles/game.dir/src/structures/quadtree.cc.o
 game: CMakeFiles/game.dir/build.make
 game: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 game: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 game: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 game: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jooz/projects/GAME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

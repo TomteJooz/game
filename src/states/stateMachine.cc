@@ -4,6 +4,8 @@
 
 void StateMachine::run(sf::RenderWindow &window, std::shared_ptr<IState> state)
 {
+    sf::Color backGround{150, 150, 255};
+
     sf::Clock fpsClock{};
     unsigned int frameCount = 0;
 
@@ -35,7 +37,7 @@ void StateMachine::run(sf::RenderWindow &window, std::shared_ptr<IState> state)
             }
         }
 
-        window.clear(sf::Color{150, 150, 255});
+        window.clear(backGround);
         
         tickTime = tickClock.restart();
 

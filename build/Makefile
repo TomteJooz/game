@@ -245,6 +245,30 @@ src/components/entities/testPlayer.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/entities/testPlayer.cc.s
 .PHONY : src/components/entities/testPlayer.cc.s
 
+src/components/hitbox.o: src/components/hitbox.cc.o
+.PHONY : src/components/hitbox.o
+
+# target to build an object file
+src/components/hitbox.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/hitbox.cc.o
+.PHONY : src/components/hitbox.cc.o
+
+src/components/hitbox.i: src/components/hitbox.cc.i
+.PHONY : src/components/hitbox.i
+
+# target to preprocess a source file
+src/components/hitbox.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/hitbox.cc.i
+.PHONY : src/components/hitbox.cc.i
+
+src/components/hitbox.s: src/components/hitbox.cc.s
+.PHONY : src/components/hitbox.s
+
+# target to generate assembly for a file
+src/components/hitbox.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/components/hitbox.cc.s
+.PHONY : src/components/hitbox.cc.s
+
 src/components/texture.o: src/components/texture.cc.o
 .PHONY : src/components/texture.o
 
@@ -389,6 +413,30 @@ src/states/stateMachine.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/states/stateMachine.cc.s
 .PHONY : src/states/stateMachine.cc.s
 
+src/structures/quadtree.o: src/structures/quadtree.cc.o
+.PHONY : src/structures/quadtree.o
+
+# target to build an object file
+src/structures/quadtree.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/structures/quadtree.cc.o
+.PHONY : src/structures/quadtree.cc.o
+
+src/structures/quadtree.i: src/structures/quadtree.cc.i
+.PHONY : src/structures/quadtree.i
+
+# target to preprocess a source file
+src/structures/quadtree.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/structures/quadtree.cc.i
+.PHONY : src/structures/quadtree.cc.i
+
+src/structures/quadtree.s: src/structures/quadtree.cc.s
+.PHONY : src/structures/quadtree.s
+
+# target to generate assembly for a file
+src/structures/quadtree.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/structures/quadtree.cc.s
+.PHONY : src/structures/quadtree.cc.s
+
 src/world.o: src/world.cc.o
 .PHONY : src/world.o
 
@@ -436,6 +484,9 @@ help:
 	@echo "... src/components/entities/testPlayer.o"
 	@echo "... src/components/entities/testPlayer.i"
 	@echo "... src/components/entities/testPlayer.s"
+	@echo "... src/components/hitbox.o"
+	@echo "... src/components/hitbox.i"
+	@echo "... src/components/hitbox.s"
 	@echo "... src/components/texture.o"
 	@echo "... src/components/texture.i"
 	@echo "... src/components/texture.s"
@@ -454,6 +505,9 @@ help:
 	@echo "... src/states/stateMachine.o"
 	@echo "... src/states/stateMachine.i"
 	@echo "... src/states/stateMachine.s"
+	@echo "... src/structures/quadtree.o"
+	@echo "... src/structures/quadtree.i"
+	@echo "... src/structures/quadtree.s"
 	@echo "... src/world.o"
 	@echo "... src/world.i"
 	@echo "... src/world.s"

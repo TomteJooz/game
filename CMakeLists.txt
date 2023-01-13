@@ -15,6 +15,8 @@ set(SOURCE_FILES
         src/states/stateMachine.cc
         src/helpers/textureHandler.cc
         src/map/tileMap.cc
+        src/components/hitbox.cc
+        src/structures/quadtree.cc
         )
 
 

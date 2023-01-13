@@ -13,6 +13,8 @@ World::World() : IInteractable{}
 
     Texture tex = Texture{textureHandler.get("./character/sprites/Idle.png"), sf::IntRect{81, 72, 33, 56}};
     tex.setScale(3.f, 3.f);
+    
     TestPlayer player = TestPlayer{tex, 350.f};
+
     addChild(std::make_shared<TestPlayer>(player));
 }

@@ -1,6 +1,7 @@
 #ifndef TileMap_H
 #define TILE_MAP_H
-#define TILE_MAP_H
+
+#include <vector>
 
 #include "../components/texture.h"
 

@@ -53,5 +53,15 @@
   "directory": "/home/jooz/projects/GAME/build",
   "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/map/tileMap.cc.o -c /home/jooz/projects/GAME/src/map/tileMap.cc",
   "file": "/home/jooz/projects/GAME/src/map/tileMap.cc"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/components/hitbox.cc.o -c /home/jooz/projects/GAME/src/components/hitbox.cc",
+  "file": "/home/jooz/projects/GAME/src/components/hitbox.cc"
+},
+{
+  "directory": "/home/jooz/projects/GAME/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/game.dir/src/structures/quadtree.cc.o -c /home/jooz/projects/GAME/src/structures/quadtree.cc",
+  "file": "/home/jooz/projects/GAME/src/structures/quadtree.cc"
 }
 ]
